@@ -1,0 +1,58 @@
+header div{
+    margin: 0em;
+    border: 0em;
+    padding: 0em;
+}
+body header nav{
+    margin: 0em;        
+    text-align: right;    
+}
+header nav a{
+    padding: 1em;
+    color: #000;
+}
+a:hover{
+    background-color: gray;
+}
+img{
+    max-width: 100%;
+}
+
+main h1{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 1em 0em 1em 3em;
+    font-size: 2em;
+    background-color: #000;
+    color: #fff;
+    margin: 1em 0em 0em 0em;    
+}
+main #menu{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;    
+    background-color:#000;    
+}
+#menu a{ color:#fff;    padding-left: 2%; }
+
+#pesquisa{ margin:1em;  padding-left: 10em; }
+#pesquisa form>input{ width: 70%;  height: 2em; }
+#pesquisa form>button{ height: 2.5em; }
+#cont_principal{  margin:5em; }
+#menu_cab{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{    
+    margin-left: 0em;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
